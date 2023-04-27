@@ -1,0 +1,38 @@
+What is cyber security?
+- refers to the practice of protecting networks, programs, computer systems, and their components from unauthorised digital access and attacks
+
+Requirements to undertake this module
+1. Kali Linux - Virtual box
+2. Hydra
+3. Ncrack
+4. Medusa
+5. BurpSuite
+
+a) Kali Linux 
+This is an open source operating system and is bested suited for hacking applications as opposed to Ms Windows.
+Since we are learning windows on our computers , we have to install virtual env called VMware.
+VMware allows us to install a linux Os on top of windows which runs exactly like a normal linux installation.
+It is in this virtal linux we are going to install the hacking tools we need.
+
+
+
+Steps to take to configure VMware after installation
+1. Shutdown computer
+2. Reboot to enter BIOS setup
+3. Lenovo bios to enter
+4. Once in Bios, look for how to enable virtualization technology
+5. Save and Restart
+
+Steps to update kali linux
+1. Open terminal
+2. sudo apt-get update
+3. sudo apt-get upgrade
+4 .sudo apt-get dist-upgrade
+5. Install wget - for downloading applications
+    -sudo apt install wget
+6. Download chrome using wget
+    wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+7. Install chrome using dpkg
+    sudo dpkg -i google-chrome-stable_current_amd64.deb
+8. Fix installation errors if you see something like "...errors occurred...":
+    sudo apt-get install -f
