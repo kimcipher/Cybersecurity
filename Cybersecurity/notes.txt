@@ -36,3 +36,31 @@ Steps to update kali linux
     sudo dpkg -i google-chrome-stable_current_amd64.deb
 8. Fix installation errors if you see something like "...errors occurred...":
     sudo apt-get install -f
+
+
+Brute forcing a password is a technique that involves trying all possible combinations of characters 
+until the correct password is found.
+The longer the password, the more possible combinations there are, and the longer it will take to crack the password.	
+Let's take the example of a 4-digit PIN password.]
+With a 4-digit PIN, there are 10 possible values for each digit (0-9), giving a total of 10^4 (or 10,000) possible combinations.
+
+This means that an attacker would need to try up to 10,000 different combinations to brute force the password.
+However, if the password were to be increased to a 6-digit PIN, the number of possible combinations 
+would increase to 10^6 (or 1,000,000).
+This means that the attacker would need to try up to 1,000,000 different combinations to brute force the password, which is much more difficult and time-consuming.
+
+To illustrate this, let's say an attacker can try 10 combinations per second (which is relatively fast). In the case of the 4-digit PIN, it would take them up to 1,000 seconds (or just over 16 minutes) to try all possible combinations.
+However, in the case of the 6-digit PIN, it would take them up to 100,000 seconds (or just over 27 hours) to try all possible combinations.
+
+request
+
+
+After sending the request, depending  on if the link was found or not. The browser will receive some information known as a "response". This response includes a status code and the html that will display the page. The status code is first read to determine the type of response and if its "OK", the html is shown.
+PROXY
+
+Used to specify and intermediary btwn your browser and the internet. When you configure your browserto use a proxy server, all your requests to access websites or other online services are sent through the proxy server before being forwarded to the intended destination. Similar to a VPN but a VPN adds encryption to your requests. So we will use the local
+INTERCEPTER
+
+Will intercept a request from your browser. Set the browser proxy to localhost so as it can send the request there where we will be waiting. We are capturing the request so we can edit it before send it out to the internet.
+INTRUDER
+Sends requests out to the internet mimicking a browser.Burp Intruder is a tool for automating customized attacks against web applications. It enables you to configure attacks that send the same HTTP request over and over again, inserting different payloads into predefined positions each time. Predefinde positions mean login credentials (username/email and password)
